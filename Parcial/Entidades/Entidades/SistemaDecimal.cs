@@ -22,9 +22,9 @@ namespace Entidades
         }
         public  Numeracion CambiarSistemaDeNumeracion(ESistema sistema)
         {
-            if(sistema ==ESistema.Binario)
+            if (sistema == ESistema.Binario)
             {
-
+                return new SistemaBinario();
             }
             else if(sistema == ESistema.Decimal)
             {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,5 +23,19 @@ namespace Entidades
         {
             
         }
+        protected bool EsNumeracionValida(string valor)
+        {
+            return false;
+        }
+        private bool EsSistemaBinarioValido(string valor)
+        {
+
+        }
+
+        implicit operator SistemaBinario (string valor)
+        {
+
+        }
+
     }
 }
